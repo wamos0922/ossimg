@@ -68,7 +68,6 @@ def apply_golden_hour(img: Image.Image) -> Image.Image:
     img = adjust_sharpness(img, 0.80)
     return img
 
-#grittytemplate
 def apply_gritty_contrast(img: Image.Image) -> Image.Image:
     """
     Applies an 'Urban Gritty Contrast' look.
@@ -79,7 +78,6 @@ def apply_gritty_contrast(img: Image.Image) -> Image.Image:
     img = adjust_shadows(img, -0.20)
     img = adjust_saturation(img, 0.80) 
     return img
-
 #pastelTemplate
 
 
